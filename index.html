@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B1020">
+  <meta name="description" content="TeamUp ช่วยให้นักศึกษาค้นหาเพื่อนร่วมทีมที่มีทักษะตรงกัน และร่วมกันสร้างสรรค์โปรเจกต์ให้สำเร็จ">
+  <title>TeamUp — ค้นหาทีมของคุณ สร้างอนาคตไปด้วยกัน</title>
+
+  <!-- Bootstrap 5.3.8 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark site-navbar fixed-top" aria-label="เมนูหลัก">
+    <div class="container">
+      <a class="navbar-brand brand-lockup" href="#home" aria-label="หน้าแรก TeamUp">
+        <span class="brand-mark"><i class="bi bi-people-fill" aria-hidden="true"></i></span>
+        <span>TeamUp<span class="brand-period">.</span></span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="เปิดหรือปิดเมนูนำทาง">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav mx-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="#home">หน้าแรก</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">ฟีเจอร์</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">แพ็กเกจราคา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#join">เข้าร่วมกับเรา</a></li>
+          <li class="nav-item"><a class="nav-link" href="#social">โซเชียลมีเดีย</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">เกี่ยวกับเรา</a></li>
+        </ul>
+        <a class="btn btn-primary-gradient navbar-cta" href="#join" data-bs-toggle="modal" data-bs-target="#registerModal">
+          เริ่มต้นใช้งาน <i class="bi bi-arrow-up-right ms-1" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="hero-section section-space" id="home">
+      <div class="hero-glow hero-glow-one" aria-hidden="true"></div>
+      <div class="hero-glow hero-glow-two" aria-hidden="true"></div>
+      <div class="container position-relative">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 hero-copy reveal">
+            <div class="eyebrow-pill mb-4"><span class="eyebrow-dot"></span> แพลตฟอร์มสำหรับการทำงานร่วมกันของนักศึกษา</div>
+            <h1 class="display-title">โปรเจกต์ที่ยอดเยี่ยม<br>เริ่มต้นจาก <span class="gradient-text">ทีมที่ใช่</span></h1>
+            <p class="hero-description mt-4">ค้นหาเพื่อนร่วมทีมที่ใช่ แบ่งปันทักษะของคุณ และเปลี่ยนไอเดียให้กลายเป็นโปรเจกต์ที่ประสบความสำเร็จ</p>
+            <div class="d-flex flex-wrap gap-3 mt-4 hero-actions">
+              <a class="btn btn-primary-gradient btn-lg" href="#join" data-bs-toggle="modal" data-bs-target="#registerModal">ค้นหาทีมของคุณ <i class="bi bi-arrow-right ms-2" aria-hidden="true"></i></a>
+              <a class="btn btn-outline-light-soft btn-lg" href="#features">ดูฟีเจอร์ทั้งหมด <i class="bi bi-play-circle ms-2" aria-hidden="true"></i></a>
+            </div>
+            <div class="hero-proof mt-5">
+              <div class="avatar-stack" aria-label="ตัวอย่างสมาชิกชุมชนนักศึกษา">
+                <span class="mini-avatar avatar-purple">AJ</span>
+                <span class="mini-avatar avatar-cyan">MK</span>
+                <span class="mini-avatar avatar-pink">TN</span>
+                <span class="mini-avatar avatar-blue">+ </span>
+              </div>
+              <div><div class="proof-title">สร้างขึ้นเพื่อนักศึกษายุคใหม่</div><div class="proof-subtitle">เชื่อมต่อ ร่วมมือ และสร้างสรรค์</div></div>
+            </div>
+          </div>
+
+          <!-- Product dashboard illustration: built with HTML and CSS -->
+          <div class="col-lg-6 reveal reveal-delay-1">
+            <div class="dashboard-scene">
+              <div class="dashboard-orbit orbit-a" aria-hidden="true"></div>
+              <div class="dashboard-orbit orbit-b" aria-hidden="true"></div>
+              <div class="dashboard-card">
+                <div class="dashboard-topbar">
+                  <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+                  <div class="dashboard-top-label"><i class="bi bi-grid-1x2-fill me-2" aria-hidden="true"></i>พื้นที่ทำงาน TeamUp</div>
+                  <div class="dashboard-top-icon"><i class="bi bi-three-dots" aria-hidden="true"></i></div>
+                </div>
+                <div class="dashboard-content">
+                  <div class="d-flex align-items-center justify-content-between gap-2 mb-3">
+                    <div><div class="dashboard-greeting">สวัสดีตอนบ่าย Alex <span aria-hidden="true">✦</span></div><div class="dashboard-muted">ไอเดียใหญ่ครั้งต่อไปของคุณเริ่มต้นที่นี่</div></div>
+                    <span class="live-badge"><span></span> ออนไลน์</span>
+                  </div>
+
+                  <div class="match-panel">
+                    <div class="d-flex justify-content-between align-items-center mb-3"><div class="panel-heading">สมาชิกที่เหมาะกับทีมของคุณ</div><span class="match-count">ใหม่ 3 คน</span></div>
+                    <div class="match-person">
+                      <div class="person-avatar person-one">JM</div>
+                      <div class="person-info"><strong>Jamie Morgan</strong><span>นักออกแบบ UI/UX</span><div class="skill-row"><small>Figma</small><small>ค้นคว้าข้อมูล</small></div></div>
+                      <div class="match-score"><strong>96%</strong><span>เข้ากัน</span></div>
+                    </div>
+                    <div class="match-person">
+                      <div class="person-avatar person-two">RL</div>
+                      <div class="person-info"><strong>Riley Lee</strong><span>นักพัฒนา Front-End</span><div class="skill-row"><small>HTML</small><small>JavaScript</small></div></div>
+                      <div class="match-score"><strong>92%</strong><span>เข้ากัน</span></div>
+                    </div>
+                  </div>
+
+                  <div class="row g-3 mt-1">
+                    <div class="col-7">
+                      <div class="mini-panel h-100">
+                        <div class="d-flex justify-content-between align-items-center"><span class="panel-heading">ความคืบหน้าโปรเจกต์</span><i class="bi bi-graph-up-arrow text-cyan" aria-hidden="true"></i></div>
+                        <div class="progress-number mt-3">72<span>%</span></div>
+                        <div class="progress custom-progress mt-2" role="progressbar" aria-label="ความคืบหน้าของโปรเจกต์" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width:72%"></div></div>
+                        <div class="dashboard-muted mt-2">แอปเชื่อมต่อชุมชนมหาวิทยาลัย</div>
+                      </div>
+                    </div>
+                    <div class="col-5">
+                      <div class="mini-panel h-100 task-panel">
+                        <div class="panel-heading mb-3">สถานะงาน</div>
+                        <div class="task-line"><span class="task-dot task-done"></span><span>ค้นคว้าข้อมูล</span><i class="bi bi-check2 ms-auto" aria-hidden="true"></i></div>
+                        <div class="task-line"><span class="task-dot task-active"></span><span>โครงร่างหน้าจอ</span><i class="bi bi-three-dots ms-auto" aria-hidden="true"></i></div>
+                        <div class="task-line"><span class="task-dot task-pending"></span><span>ต้นแบบ</span><i class="bi bi-clock ms-auto" aria-hidden="true"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="floating-note note-match"><span class="note-icon"><i class="bi bi-stars" aria-hidden="true"></i></span><span><strong>ตรงกันสุด ๆ!</strong><small>ทักษะของคุณตรงกัน</small></span></div>
+              <div class="floating-note note-team"><span class="team-bubble"><i class="bi bi-people-fill" aria-hidden="true"></i></span><span><strong>เชื่อมต่อทีมแล้ว</strong><small>พร้อมร่วมงานกัน</small></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-bottom-line" aria-hidden="true"></div>
+    </section>
+
+    <!-- Features -->
+    <section class="section-space features-section" id="features">
+      <div class="container">
+        <div class="section-heading text-center mx-auto reveal">
+          <span class="section-kicker">ออกแบบมาเพื่อการทำงานเป็นทีม</span>
+          <h2 class="section-title">ทุกสิ่งที่คุณต้องการ <span class="gradient-text">เพื่อสร้างสรรค์ร่วมกัน</span></h2>
+          <p class="section-description">ตั้งแต่ค้นหาเพื่อนร่วมทีมไปจนถึงส่งมอบผลงาน TeamUp ช่วยให้โปรเจกต์ของคุณเดินหน้าได้อย่างราบรื่น</p>
+        </div>
+
+        <div class="row g-4 mt-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="feature-card h-100">
+              <div class="feature-icon icon-purple"><i class="bi bi-people" aria-hidden="true"></i></div>
+              <span class="feature-index">01 / เชื่อมต่อ</span>
+              <h3>จับคู่ทีมอัจฉริยะ</h3>
+              <p>ค้นหาเพื่อนร่วมทีมจากทักษะ ความสนใจ และจุดแข็ง สร้างทีมที่ลงตัวจากผู้คนที่มีความสามารถหลากหลาย</p>
+              <a class="feature-link" href="#join" data-bs-toggle="modal" data-bs-target="#registerModal">ค้นหาเพื่อนร่วมทีม <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+            <article class="feature-card h-100">
+              <div class="feature-icon icon-cyan"><i class="bi bi-kanban" aria-hidden="true"></i></div>
+              <span class="feature-index">02 / สร้างสรรค์</span>
+              <h3>พื้นที่จัดการโปรเจกต์</h3>
+              <p>จัดระเบียบโปรเจกต์ แบ่งหน้าที่ มอบหมายงาน และติดตามทุกความคืบหน้าได้ในพื้นที่ทำงานเดียวกัน</p>
+              <a class="feature-link" href="#join" data-bs-toggle="modal" data-bs-target="#registerModal">เริ่มจัดการโปรเจกต์ <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+            <article class="feature-card h-100">
+              <div class="feature-icon icon-pink"><i class="bi bi-calendar2-week" aria-hidden="true"></i></div>
+              <span class="feature-index">03 / วางแผน</span>
+              <h3>ตารางเวลาอัจฉริยะ</h3>
+              <p>วางแผนนัดหมายตามเวลาว่างของสมาชิก มองเห็นกำหนดส่งได้ชัดเจน และจัดสรรเวลาให้กับงานสำคัญ</p>
+              <a class="feature-link" href="#join" data-bs-toggle="modal" data-bs-target="#registerModal">วางแผนร่วมกัน <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Pricing plans: sample prices for the class project demo -->
+    <section class="section-space pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading text-center mx-auto reveal">
+          <span class="section-kicker">เรียบง่าย ในราคาที่นักศึกษาเข้าถึงได้</span>
+          <h2 class="section-title">เครื่องมือที่เหมาะสม <span class="gradient-text">สำหรับทุกทีม</span></h2>
+          <p class="section-description">เริ่มต้นใช้งานฟรี แล้วเลือกเครื่องมือเพิ่มเติมเมื่อโปรเจกต์ของคุณเติบโต ราคานี้เป็นราคาเสนอสำหรับตัวอย่างโครงงานเท่านั้น ไม่มีการเรียกเก็บเงินจริง</p>
+        </div>
+
+        <div class="row g-4 align-items-stretch mt-4">
+          <div class="col-md-6 col-lg-4 reveal">
+            <article class="pricing-card h-100">
+              <div class="pricing-topline"><span class="pricing-plan-icon plan-free"><i class="bi bi-rocket-takeoff" aria-hidden="true"></i></span><span class="pricing-plan-label">สำหรับผู้เริ่มต้น</span></div>
+              <h3>ฟรี</h3>
+              <p class="pricing-description">ทุกสิ่งที่จำเป็นสำหรับการหาเพื่อนร่วมทีมและเริ่มต้นโปรเจกต์แรกของคุณ</p>
+              <div class="pricing-price"><span class="price-currency">฿</span>0 <span class="price-period">/ เดือน</span></div>
+              <div class="pricing-divider"></div>
+              <ul class="pricing-features">
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ค้นหาทีมในรูปแบบพื้นฐาน</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> โปรไฟล์ส่วนตัวและแท็กทักษะ</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> พื้นที่ทำงานโปรเจกต์ที่ใช้งานได้ 1 โปรเจกต์</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> บอร์ดจัดการงานพื้นฐาน</li>
+              </ul>
+              <button class="btn btn-outline-light-soft w-100 pricing-button mt-auto" type="button" data-bs-toggle="modal" data-bs-target="#registerModal" data-plan-name="ฟรี — ฿0 / เดือน">เริ่มใช้งานฟรี <i class="bi bi-arrow-right ms-2" aria-hidden="true"></i></button>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+            <article class="pricing-card pricing-card-featured h-100">
+              <div class="pricing-popular"><i class="bi bi-stars me-1" aria-hidden="true"></i> ได้รับความนิยม</div>
+              <div class="pricing-topline"><span class="pricing-plan-icon plan-plus"><i class="bi bi-lightning-charge" aria-hidden="true"></i></span><span class="pricing-plan-label">สำหรับนักศึกษาที่ทำโปรเจกต์เป็นประจำ</span></div>
+              <h3>Student Plus</h3>
+              <p class="pricing-description">เพิ่มโอกาสในการค้นหาทีมที่ใช่ พร้อมช่วยให้ทุกโปรเจกต์ดำเนินไปตามแผน</p>
+              <div class="pricing-price"><span class="price-currency">฿</span>59 <span class="price-period">/ เดือน</span></div>
+              <div class="pricing-divider"></div>
+              <ul class="pricing-features">
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ทุกฟีเจอร์ในแพ็กเกจฟรี</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ตัวกรองจับคู่ทักษะขั้นสูง</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> พื้นที่ทำงานโปรเจกต์ไม่จำกัด</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ตารางเวลาอัจฉริยะและแจ้งเตือนกำหนดส่ง</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ข้อมูลวิเคราะห์ความคืบหน้าของโปรเจกต์</li>
+              </ul>
+              <button class="btn btn-primary-gradient w-100 pricing-button mt-auto" type="button" data-bs-toggle="modal" data-bs-target="#registerModal" data-plan-name="Student Plus — ฿59 / เดือน">เลือก Student Plus <i class="bi bi-arrow-right ms-2" aria-hidden="true"></i></button>
+            </article>
+          </div>
+
+          <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+            <article class="pricing-card h-100">
+              <div class="pricing-topline"><span class="pricing-plan-icon plan-team"><i class="bi bi-people" aria-hidden="true"></i></span><span class="pricing-plan-label">สำหรับทีมที่ทำงานร่วมกัน</span></div>
+              <h3>แพ็กเกจทีม</h3>
+              <p class="pricing-description">เครื่องมือส่วนกลางที่ช่วยให้สมาชิกทุกคนทำงานสอดคล้องกันและส่งมอบผลงานร่วมกัน</p>
+              <div class="pricing-price"><span class="price-currency">฿</span>149 <span class="price-period">/ ทีม / เดือน</span></div>
+              <div class="pricing-divider"></div>
+              <ul class="pricing-features">
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ทุกฟีเจอร์ใน Student Plus</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> พื้นที่ทำงานร่วมกันของทีม</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> กำหนดบทบาทสมาชิกและมอบหมายงาน</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> ภาพรวมกำหนดส่งงานของทีม</li>
+                <li><i class="bi bi-check-circle-fill" aria-hidden="true"></i> รายงานความคืบหน้าของทีม</li>
+              </ul>
+              <button class="btn btn-outline-light-soft w-100 pricing-button mt-auto" type="button" data-bs-toggle="modal" data-bs-target="#registerModal" data-plan-name="แพ็กเกจทีม — ฿149 / ทีม / เดือน">เลือกแพ็กเกจทีม <i class="bi bi-arrow-right ms-2" aria-hidden="true"></i></button>
+            </article>
+          </div>
+        </div>
+        <p class="pricing-footnote text-center mt-4 mb-0"><i class="bi bi-info-circle me-1" aria-hidden="true"></i> ราคาเป็นแนวคิดสำหรับโครงงานนักศึกษาเท่านั้น ไม่มีการรับชำระเงินหรือเปิดใช้งานสมาชิกแบบชำระเงิน</p>
+      </div>
+    </section>
+
+    <!-- Join / CTA -->
+    <section class="section-space cta-section" id="join">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-decoration cta-decoration-one" aria-hidden="true"></div>
+          <div class="cta-decoration cta-decoration-two" aria-hidden="true"></div>
+          <div class="row align-items-center position-relative g-4">
+            <div class="col-lg-8">
+              <span class="section-kicker">ก้าวต่อไปของคุณเริ่มต้นที่นี่</span>
+              <h2 class="cta-title">พร้อมค้นหา<br><span class="gradient-text">ทีมที่ใช่แล้วหรือยัง?</span></h2>
+              <p class="cta-description">โปรเจกต์ที่ยอดเยี่ยมครั้งต่อไป เริ่มต้นจากการมีทีมที่เหมาะสม</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <button class="btn btn-light-gradient btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#registerModal">เข้าร่วม TeamUp ตอนนี้ <i class="bi bi-arrow-up-right ms-2" aria-hidden="true"></i></button>
+              <div class="cta-caption mt-3">สมัครฟรี · สร้างขึ้นเพื่อนักศึกษา</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social links -->
+    <section class="section-space social-section" id="social">
+      <div class="container">
+        <div class="section-heading text-center mx-auto reveal">
+          <span class="section-kicker">มาเชื่อมต่อกัน</span>
+          <h2 class="section-title">ติดตามข่าวสารจาก <span class="gradient-text">TeamUp</span></h2>
+          <p class="section-description">ติดตามการเดินทางของเรา ค้นพบโปรเจกต์จากนักศึกษา และเป็นส่วนหนึ่งของชุมชนที่ร่วมกันสร้างสรรค์</p>
+        </div>
+        <div class="row g-3 justify-content-center mt-4">
+          <div class="col-6 col-md-3 reveal"><a class="social-card" href="https://www.facebook.com/your-teamup-page" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="bi bi-facebook" aria-hidden="true"></i></span><span><strong>Facebook</strong><small>ข่าวสารจากชุมชน</small></span><i class="bi bi-arrow-up-right social-arrow" aria-hidden="true"></i></a></div>
+          <div class="col-6 col-md-3 reveal reveal-delay-1"><a class="social-card" href="https://www.instagram.com/your-teamup-page/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="bi bi-instagram" aria-hidden="true"></i></span><span><strong>Instagram</strong><small>เบื้องหลังการทำงาน</small></span><i class="bi bi-arrow-up-right social-arrow" aria-hidden="true"></i></a></div>
+          <div class="col-6 col-md-3 reveal reveal-delay-2"><a class="social-card" href="https://www.linkedin.com/company/your-teamup-page/" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="bi bi-linkedin" aria-hidden="true"></i></span><span><strong>LinkedIn</strong><small>เครือข่ายด้านอาชีพ</small></span><i class="bi bi-arrow-up-right social-arrow" aria-hidden="true"></i></a></div>
+          <div class="col-6 col-md-3 reveal reveal-delay-3"><a class="social-card" href="https://github.com/your-teamup-labs" target="_blank" rel="noopener noreferrer"><span class="social-icon"><i class="bi bi-github" aria-hidden="true"></i></span><span><strong>GitHub</strong><small>ติดตามผลงานโค้ด</small></span><i class="bi bi-arrow-up-right social-arrow" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row gy-5 pb-5">
+        <div class="col-lg-5">
+          <a class="navbar-brand brand-lockup" href="#home"><span class="brand-mark"><i class="bi bi-people-fill" aria-hidden="true"></i></span><span>TeamUp<span class="brand-period">.</span></span></a>
+          <p class="footer-description mt-3">TeamUp Labs มุ่งพัฒนาวิธีใหม่ให้นักศึกษาได้เชื่อมโยงทักษะ ทำงานร่วมกันอย่างมั่นใจ และเปลี่ยนไอเดียให้เป็นผลงานที่มีคุณค่า</p>
+          <div class="footer-socials mt-4">
+            <a href="https://www.facebook.com/your-teamup-page" target="_blank" rel="noopener noreferrer" aria-label="TeamUp บน Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/your-teamup-page/" target="_blank" rel="noopener noreferrer" aria-label="TeamUp บน Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/your-teamup-page/" target="_blank" rel="noopener noreferrer" aria-label="TeamUp บน LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/your-teamup-labs" target="_blank" rel="noopener noreferrer" aria-label="TeamUp บน GitHub"><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3 offset-lg-1">
+          <h2 class="footer-heading">สำรวจเว็บไซต์</h2>
+          <ul class="footer-links">
+            <li><a href="#home">หน้าแรก</a></li>
+            <li><a href="#features">ฟีเจอร์</a></li>
+            <li><a href="#pricing">แพ็กเกจราคา</a></li>
+            <li><a href="#join">เข้าร่วมกับเรา</a></li>
+            <li><a href="about.html">เกี่ยวกับ TeamUp</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h2 class="footer-heading">ติดต่อเรา</h2>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@teamup-labs.example">hello@teamup-labs.example</a></li>
+            <li><a href="#social">ช่องทางโซเชียลมีเดีย</a></li>
+            <li><a href="#join" data-bs-toggle="modal" data-bs-target="#registerModal">สมัครเป็นสมาชิก</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+        <p class="mb-0">© <span data-current-year>2026</span> TeamUp Labs. สงวนลิขสิทธิ์</p>
+        <a href="#home" class="back-top-link">กลับขึ้นด้านบน <i class="bi bi-arrow-up" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Registration Modal: Front-End Demo only -->
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+      <div class="modal-content registration-modal">
+        <div class="modal-header border-0">
+          <div><span class="section-kicker">มาร่วมสร้างสิ่งใหม่ไปด้วยกัน</span><h2 class="modal-title" id="registerModalLabel">เข้าร่วมชุมชน TeamUp</h2></div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="ปิด"></button>
+        </div>
+        <div class="modal-body pt-0">
+          <p class="modal-intro">บอกข้อมูลเกี่ยวกับตัวคุณ เพื่อให้เราเข้าใจว่าคุณต้องการร่วมทีมในรูปแบบใด</p>
+          <form id="registrationForm" class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-12"><label for="selectedPlan" class="form-label">แพ็กเกจที่เลือก</label><input class="form-control" id="selectedPlan" name="selectedPlan" type="text" value="ฟรี — ฿0 / เดือน" readonly><div class="form-text text-secondary">คุณสามารถเปลี่ยนแพ็กเกจได้โดยเลือกแพ็กเกจอื่นในส่วนแพ็กเกจราคา</div></div>
+              <div class="col-md-6"><label for="fullName" class="form-label">ชื่อ-นามสกุล <span class="required-mark">*</span></label><input class="form-control" id="fullName" name="fullName" type="text" placeholder="เช่น กิตติ พัฒนา" autocomplete="name" required><div class="invalid-feedback">กรุณากรอกชื่อและนามสกุล</div></div>
+              <div class="col-md-6"><label for="email" class="form-label">อีเมล <span class="required-mark">*</span></label><input class="form-control" id="email" name="email" type="email" placeholder="you@university.ac.th" autocomplete="email" required><div class="invalid-feedback">กรุณากรอกอีเมลให้ถูกต้อง</div></div>
+              <div class="col-md-6"><label for="university" class="form-label">มหาวิทยาลัย <span class="required-mark">*</span></label><input class="form-control" id="university" name="university" type="text" placeholder="ชื่อมหาวิทยาลัยของคุณ" required><div class="invalid-feedback">กรุณากรอกชื่อมหาวิทยาลัย</div></div>
+              <div class="col-md-6"><label for="major" class="form-label">สาขาวิชา / คณะ <span class="required-mark">*</span></label><input class="form-control" id="major" name="major" type="text" placeholder="เช่น วิศวกรรมคอมพิวเตอร์" required><div class="invalid-feedback">กรุณากรอกสาขาวิชาหรือคณะ</div></div>
+              <div class="col-md-6"><label for="skills" class="form-label">ทักษะของคุณ <span class="required-mark">*</span></label><textarea class="form-control" id="skills" name="skills" rows="3" placeholder="เช่น HTML, Figma, การพูดในที่สาธารณะ" required></textarea><div class="invalid-feedback">กรุณาระบุทักษะของคุณอย่างน้อย 1 อย่าง</div></div>
+              <div class="col-md-6"><label for="teamRole" class="form-label">ตำแหน่งที่สนใจในทีม <span class="required-mark">*</span></label><select class="form-select" id="teamRole" name="teamRole" required><option value="" selected disabled>เลือกตำแหน่งที่คุณสนใจ</option><option>นักพัฒนา Front-End</option><option>นักพัฒนา Back-End</option><option>นักออกแบบ UI/UX</option><option>ผู้จัดการโปรเจกต์</option><option>นักวิจัย</option><option>การตลาดและคอนเทนต์</option><option>ยืดหยุ่นได้ทุกตำแหน่ง</option></select><div class="invalid-feedback">กรุณาเลือกตำแหน่งที่สนใจ</div></div>
+            </div>
+            <div class="demo-notice mt-4"><i class="bi bi-info-circle" aria-hidden="true"></i><span>แบบฟอร์มสาธิตสำหรับโครงงาน: ระบบตรวจสอบข้อมูลในเบราว์เซอร์เท่านั้น และจะไม่ส่งหรือบันทึกข้อมูลส่วนตัวไปยังเซิร์ฟเวอร์</span></div>
+            <div class="d-flex flex-column-reverse flex-sm-row justify-content-end gap-2 mt-4">
+              <button type="button" class="btn btn-outline-light-soft" data-bs-dismiss="modal">ยกเลิก</button>
+              <button type="submit" class="btn btn-primary-gradient">ส่งข้อมูลสมัคร <i class="bi bi-arrow-right ms-2" aria-hidden="true"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Success toast -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="registrationToast" class="toast custom-toast" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex align-items-center">
+        <div class="toast-icon"><i class="bi bi-check-lg" aria-hidden="true"></i></div>
+        <div class="toast-body"><strong class="d-block">สมัครเรียบร้อยแล้ว!</strong><span id="toastMessage">ข้อมูลสมัครตัวอย่างของคุณผ่านการตรวจสอบแล้ว</span><small class="d-block mt-1">ไม่มีการส่งหรือจัดเก็บข้อมูลใด ๆ</small></div>
+        <button type="button" class="btn-close btn-close-white me-3" data-bs-dismiss="toast" aria-label="ปิด"></button>
+      </div>
+    </div>
+  </div>
+
+  <button class="back-to-top" id="backToTop" type="button" aria-label="กลับขึ้นด้านบน"><i class="bi bi-arrow-up" aria-hidden="true"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
